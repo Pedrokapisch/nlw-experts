@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a sintaxe correta para declarar uma variável em JavaScript?",
-      respostas: [
-        "vr myVar;",
-        "variable myVar;",
-        "let myVar;"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que o método 'querySelector()' faz em JavaScript?",
-      respostas: [
-        "Seleciona o primeiro elemento que corresponde a um seletor CSS especificado.",
-        "Seleciona todos os elementos que correspondem a um seletor CSS especificado.",
-        "Seleciona um elemento pelo seu id."
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a maneira correta de escrever um comentário de uma linha em JavaScript?",
-      respostas: [
-        "// Comentário",
-        "/* Comentário */",
-        "<!-- Comentário -->"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual função é usada para imprimir algo no console em JavaScript?",
-      respostas: [
-        "print()",
-        "console.log()",
-        "write()"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como você escreve 'Hello World' em um alerta em JavaScript?",
-      respostas: [
-        "msgBox('Hello World');",
-        "alertBox('Hello World');",
-        "alert('Hello World');"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual operador é usado para atribuição em JavaScript?",
-      respostas: [
-        "=",
-        "==",
-        ":="
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é usado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "push()",
-        "add()",
-        "append()"
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o método 'toFixed()' faz em JavaScript?",
-      respostas: [
-        "Retorna o valor arredondado de um número com uma quantidade especificada de casas decimais.",
-        "Retorna o valor arredondado para o inteiro mais próximo.",
-        "Converte um número em uma string."
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual desses NÃO é um tipo de dado em JavaScript?",
-      respostas: [
-        "String",
-        "Boolean",
-        "Float"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
-      respostas: [
-        "pop()",
-        "remove()",
-        "delete()"
-      ],
-      correta: 0
-    }
-  ];
+  {
+    pergunta: "Qual é o nome do famoso calçadão à beira-mar no Rio de Janeiro?",
+    respostas: [
+      "Copacabana",
+      "Ipanema",
+      "Leblon"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do famoso festival de música que acontece anualmente no Rio de Janeiro?",
+    respostas: [
+      "Rock in Rio",
+      "Carnaval",
+      "Festival de Verão"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do famoso estádio de futebol localizado no Rio de Janeiro?",
+    respostas: [
+      "Maracanã",
+      "Mineirão",
+      "Arena Corinthians"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do famoso morro onde está localizada a estátua do Cristo Redentor?",
+    respostas: [
+      "Morro do Pão de Açúcar",
+      "Morro da Urca",
+      "Morro do Corcovado"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o estilo de música tradicional do Rio de Janeiro?",
+    respostas: [
+      "Forró",
+      "Samba",
+      "Bossa Nova"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome da famosa celebração religiosa que acontece no Rio de Janeiro e atrai milhões de pessoas?",
+    respostas: [
+      "Festa de Iemanjá",
+      "Festa de São João",
+      "Festa de São Sebastião"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o apelido do Rio de Janeiro?",
+    respostas: [
+      "Cidade Maravilhosa",
+      "Cidade dos Anjos",
+      "Cidade do Samba"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do famoso bondinho que leva turistas ao topo de um morro no Rio de Janeiro?",
+    respostas: [
+      "Bondinho de Santa Teresa",
+      "Bondinho do Pão de Açúcar",
+      "Bondinho do Corcovado"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é o nome do famoso aqueduto que hoje serve como uma via de pedestres no Rio de Janeiro?",
+    respostas: [
+      "Arcos da Lapa",
+      "Ponte Rio-Niterói",
+      "Elevado do Joá"
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é o nome do famoso bairro boêmio do Rio de Janeiro, conhecido por sua vida noturna agitada?",
+    respostas: [
+      "Copacabana",
+      "Leblon",
+      "Lapa"
+    ],
+    correta: 2
+  }
+];
+
   
   
   const quiz = document.querySelector('#quiz')
