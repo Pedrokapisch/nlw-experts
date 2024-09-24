@@ -15,4 +15,4 @@ Quiz simples sobre o Rio de Janeiro feito durante a NLW da Rocketseat / Simple q
 ![App Screenshot](https://i.imgur.com/vwv9Vc2.png)
 
 ## Demonstration
-![App Demo](https://i.imgur.com/vwv9Vc2.png)
+![App Demo](https://i.imgur.com/9Jc2P97.gif)
