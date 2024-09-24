@@ -1,9 +1,17 @@
-# nlw-experts
-cool quiz that i've learned to make in a couple of days on nlw-experts at rocketseat
 
-## Tecnologias Utilizadas
+# nlw-experts
+Quiz simples sobre o Rio de Janeiro feito durante a NLW da Rocketseat / Simple quiz about Rio de Janeiro made during NLW event at Rocketseat
+
+## Tecnologias Utilizadas / Used Tech
 
 -HTML
 -CSS
 -JavaScript
 -Github
+
+
+## Screenshot
+
+![App Screenshot](https://imgur.com/vwv9Vc2)
+
+## Demo
